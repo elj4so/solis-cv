@@ -7,7 +7,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navLinks = [
-    { href: '#home', label: 'Home' },
+    { href: '#inicio', label: 'Inicio' },
     { href: '#sobre-mi', label: 'Sobre mí' },
     { href: '#habilidades', label: 'Habilidades' },
     { href: '#proyectos', label: 'Proyectos' },
@@ -20,7 +20,7 @@ const Navbar = () => {
       <nav className="fixed top-0 left-0 w-full z-50 py-4 bg-white/80 backdrop-blur-md dark:bg-gray-900/80 border-b border-gray-200 dark:border-gray-800">
         <div className="max-w-6xl mx-auto px-6 flex justify-between items-center">
           
-          <a href="#home" className="text-2xl font-bold text-gray-900 dark:text-white">
+          <a href="#inicio" className="text-2xl font-bold text-gray-900 dark:text-white">
             Jasiel S. García
           </a>
           

@@ -1,3 +1,5 @@
+import aboutme from "../assets/img/aboutme.jpg";
+
 const About = () => {
   return (
     <section id="sobre-mi" className="py-20 px-6 bg-gray-50 dark:bg-gray-900">
@@ -23,7 +25,7 @@ const About = () => {
           </div>
           <div>
             <img
-              src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src= {aboutme}
               alt="Programación y desarrollo"
               className="rounded-2xl shadow-lg"
             />

@@ -1,9 +1,9 @@
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Github, Instagram, Mail } from 'lucide-react';
 import { ArrowDown } from 'lucide-react';
 import photo from '../assets/img/photo.png'
 const Hero = () => {
   return (
-    <section id="home" className="pt-32 pb-32 px-6 relative min-h-screen flex items-center">
+    <section id="inicio" className="pt-32 pb-32 px-6 relative min-h-screen flex items-center">
       <div className="max-w-6xl mx-auto w-full">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           
@@ -23,9 +23,9 @@ const Hero = () => {
             </p>
             <a 
               href="#contacto" 
-              className="px-8 py-4 bg-gray-900 text-white rounded-lg text-lg font-medium hover:bg-gray-800 dark:bg-blue-600 dark:hover:bg-blue-500 transition-colors"
+              className="px-8 py-4 bg-gray-900 text-white rounded-lg text-xl font-medium hover:bg-gray-800 dark:bg-blue-600 dark:hover:bg-blue-500 transition-colors"
             >
-              Di Hola <span>🤗</span>
+              Di "Hola" <span>📧</span>
             </a>
           </div>
 
@@ -35,7 +35,6 @@ const Hero = () => {
             <div className="relative w-[300px] h-[400px] lg:w-[350px] lg:h-[500px]">
               <div className="absolute inset-0 bg-gray-300 dark:bg-gray-700 rounded-[50%_50%_50%_50%/50%_50%_50%_50%] "></div>
               
-              {/* Tu Imagen */}
               <img
                 src={photo}
                 alt="Foto"
@@ -46,16 +45,14 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Iconos Sociales (Verticales) */}
-      {/* Ocultos en móvil, visibles en desktop */}
       <div className="hidden md:flex flex-col gap-6 absolute left-6 lg:left-12 top-1/2 -translate-y-1/2">
         <a href="https://github.com/elj4so" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors">
           <Github size={24} />
         </a>
-        <a href="https.linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors">
-          <Linkedin size={24} />
+        <a href="https://www.instagram.com/eljaso.zip" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors">
+          <Instagram size={24} />
         </a>
-        <a href="jasielsolisgarcia08@gmail.com" className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors">
+        <a href="mailto:jasielsolisgarcia08@gmail.com" className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors">
           <Mail size={24} />
         </a>
       </div>
