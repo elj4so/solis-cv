@@ -34,14 +34,18 @@ const Projects = () => {
         {/* Video principal */}
         <div className="mb-12">
           <div className="bg-white dark:bg-gray-800 rounded-2xl overflow-hidden shadow-lg">
-            <video
-              className="w-full h-auto max-h-[500px] object-cover"
-              controls
-              poster="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800"
-            >
-              <source src="https://youtu.be/lEpwxHhUJMg?si=cywywxz3KKc1Xdvo" type="video/mp4" />
-              Tu navegador no soporta videos HTML5.
-            </video>
+           {/* Contenedor del Video (para hacerlo responsivo 16:9) */}
+          <div className="relative w-full overflow-hidden rounded-2xl shadow-lg" style={{ paddingTop: '56.25%' }}>
+          {/* El padding-top (56.25%) es el truco para el aspect-ratio de 16:9 */}
+           <iframe
+            className="absolute top-0 left-0 w-full h-full"
+            src="https://www.youtube.com/embed/lEpwxHhUJMg?si=cywywxz3KKc1Xdvo"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+           ></iframe>
+            </div>
             <div className="p-6">
               <h4 className="text-2xl font-bold mb-3 text-gray-900 dark:text-white">
                 Demo de Desarrollo
