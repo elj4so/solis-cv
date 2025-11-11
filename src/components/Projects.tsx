@@ -39,7 +39,7 @@ const Projects = () => {
               controls
               poster="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800"
             >
-              <source src="https://videos.pexels.com/video-files/5053851/5053851-hd_1920_1080_30fps.mp4" type="video/mp4" />
+              <source src="https://youtu.be/lEpwxHhUJMg?si=cywywxz3KKc1Xdvo" type="video/mp4" />
               Tu navegador no soporta videos HTML5.
             </video>
             <div className="p-6">
