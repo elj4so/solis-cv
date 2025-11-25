@@ -46,7 +46,7 @@ const Hero = () => {
       </div>
 
       <div className="hidden md:flex flex-col gap-6 absolute left-6 lg:left-12 top-1/2 -translate-y-1/2">
-        <a href="https://github.com/elj4so" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors">
+        <a href="https://github.com/JasielSGarcia" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors">
           <Github size={24} />
         </a>
         <a href="https://www.instagram.com/eljaso.zip" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors">
