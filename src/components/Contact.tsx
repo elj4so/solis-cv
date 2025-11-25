@@ -12,7 +12,7 @@ const Contact = () => {
         </p>
         <div className="flex justify-center gap-4 flex-wrap">
           <a
-            href="https://github.com/elj4so"
+            href="https://github.com/JasielSGarcia"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-6 py-3 border-2 border-gray-900 text-gray-900 rounded-lg hover:bg-gray-50 transition dark:border-gray-300 dark:text-gray-300 dark:hover:bg-gray-800"
